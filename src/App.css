@@ -1,0 +1,265 @@
+ /* ===========Global Css========= */
+ body {
+  font-family: 'Roboto', sans-serif;
+ }
+*{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+a:hover{
+  text-decoration: none;
+}
+::placeholder{
+  color: #aca2a279 !important;
+  font-weight: 100;
+}
+
+ /* ===========Header Css========= */
+.logo{
+  width:100px;
+}
+.header nav{
+  background: rgba(0, 0, 0, 0) !important;
+  padding: 15px 100px !important;
+  margin-bottom: -100px !important;
+  
+
+}
+.searchInput input{
+  height: 37px;
+  width: 280px;
+  padding-left: 20px;
+  background: #ffffff2c;
+}
+
+.header nav li a{
+  color: #000000 !important;
+  padding:20px !important;
+}
+.login{
+  background: #F9C93A;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.loggedInimage{
+  height: 40px;
+  width:40px;
+  border-radius:50px;
+  border: 3px solid #F9C93A;
+  margin-top: -6px !important;
+  margin-left: -10px !important;
+}
+button:focus, button:active, button:visited, button:hover{
+  border: 0px solid #F9C93A !important;
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.0) !important;
+}
+input:focus, input:active, input:visited, input:hover{
+  border: 0px solid #F9C93A !important;
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.0) !important;
+}
+ /* ===========News Page Css========= */
+.newsPage, .placeDetails{
+  background: #00dada;
+  background: linear-gradient(
+      rgba(43, 36, 192, .3),
+      rgba(0, 0, 0, .6)
+    ), url(https://i.pinimg.com/originals/de/1f/69/de1f693af66ec65dd2d2e1dcdd26da9a.jpg);
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+.topPadding{
+  padding-top: 150px !important;
+}
+.placeDescription{
+ 
+  color: #ffffff;
+  
+}
+.placeDescription h1{
+  text-transform: uppercase;
+  
+  font-weight: 600;
+}
+.placeDescription .bookingBtn{
+  background: #F9C93A;
+  border-radius: 5px;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  width: 130px;
+  color: #000000;
+  border: none;
+}
+
+.place{
+  border: 4px solid #F9C93A;
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+.place img{
+  border-radius: 16px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.placeName{
+  position: absolute;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 99999;
+  bottom: 20px; 
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+ /* ===========Place Details ========= */
+.placeDescription p{
+  text-align: justify
+}
+ .bookingForm{
+    background: #fff;
+    width: 100%;
+    margin: 0 auto !important;
+ }
+ .bookingForm button{
+  background: #F9C93A;
+  border: none !important;
+  width: 100%; 
+  height: 40px;
+  border-radius: 5px;
+}
+.place-section{
+}
+.formInput{
+  width:100% !important;
+  background: #F2F2F2 !important;
+  border: none !important;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px !important;
+}
+
+ /* ===========Room Details ========= */
+.roomdetails{}
+.roomdetails .roomImage{
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.roomdetails h1{
+  font-size: 20px;
+
+}
+.roomdetails p{
+  color: #7c7c7c;
+  font-size: 15px;
+}
+.roomdetails .roominfo{
+  font-size: 15px;
+}
+.roomdetails span{
+  font-size: 15px;
+}
+.starLogo{
+  margin-right: 30px;
+  padding: 40px;
+  width: 16px;
+}
+.roomCost{
+  display: inline-block;
+  margin-left: 10px !important;
+  font-size: 17px !important;
+}
+
+ .googlemap iframe{
+   width:100% !important;
+   height: 550px;
+ }
+ /* =========== Login page ========= */
+
+ .loginForm{
+  border: 1px solid #7c7c7c;
+  padding: 20px !important;
+  border-radius: 5px;
+
+ }
+ .loginForm input{
+   padding: 10px !important;
+   width:100% !important;
+   margin-bottom: 20px !important;
+   height: 40px;
+   border: none;
+   border-radius: 0px !important;
+   border-bottom: 1px solid #b5b5b5 !important;
+   
+ }
+ .submitButton{
+  width: 100% !important;
+  background: #F9C93A !important;
+  border-radius: 10px !important;
+  border: 0px solid #7c7c7c !important;
+  margin-top: 20px !important;
+  font-weight: 300;
+  cursor: pointer;
+  color: #ffff;
+ }
+.signInButton{
+  width: 100% !important;
+  background: transparent !important;
+  border-radius: 50px !important;
+  border: 1px solid #7c7c7c !important;
+  margin-top: 20px !important;
+  padding: 6px 0px !important;
+  transition: all 0.5s;
+  font-weight: 300;
+  cursor: pointer;
+}
+.signInButton:hover{
+  border: 1px solid #7c7c7c !important;
+  background: #F9C93A !important;
+}
+
+
+
+@media (max-width: 1100px){
+  .header nav{
+    padding: 15px 25px !important;
+    
+  }
+  .bookingForm{
+    background: #fff;
+    width: 100%;
+    margin: 0 auto !important;
+ }
+}
+@media (max-width: 991px){
+  
+  
+  .place-section{
+    min-height: 100%;
+  }
+  
+  .newsPage, .placeDetails{
+    height: 100% !important;
+  }
+  
+}
+@media (max-width: 767px){
+  .header nav{
+    position: relative;
+    background: #01e1ce !important;
+    
+  }
+}
