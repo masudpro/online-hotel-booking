@@ -1,8 +1,7 @@
 
 
 # Online Hotel Booking
-### [LIVE SITE](https://august-cascade-220007.web.app/)
-### [Server Site Repository](https://kind-montalcini-cf88e3.netlify.app/)
+### [LIVE SITE](https://kind-montalcini-cf88e3.netlify.app/)
 
 ## Features
 - Creative agenct web site is an agency site that have an anthentication system.
